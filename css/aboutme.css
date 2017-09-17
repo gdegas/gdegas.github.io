@@ -1,0 +1,15 @@
+#photo-me {
+  border-radius: 50%;
+  width: 250px;
+  float: left;
+  margin-right: 22px;
+  margin-bottom: 80px;
+}
+
+.secondary {
+  width: 50%;
+}
+
+#text {
+  font-family: arial, sans-serif;
+}
