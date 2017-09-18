@@ -6,10 +6,19 @@
   margin-bottom: 80px;
 }
 
+.wrapper {
+  margin-top: 50px;
+}
+
 .secondary {
   width: 50%;
 }
 
 #text {
   font-family: arial, sans-serif;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
 }
