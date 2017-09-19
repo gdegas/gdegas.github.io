@@ -32,7 +32,9 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-message>h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 5em;
+  font-size: 4em;
+  font-weight: 600;
+  color: rgba(0, 255, 177, 0.95);
 }
 
 .intro-divider {
@@ -150,3 +152,14 @@ footer {
 p.copyright {
   margin: 15px 0 0;
 }
+
+/*#surfazon {
+  position: absolute;
+  top: -20px;
+  max-width: 80%;
+  height: auto;
+}
+
+#surfazon-back {
+  position: relative;
+}*/
