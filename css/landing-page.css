@@ -29,12 +29,16 @@ body, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 20%;
 }
 
-.intro-message>h1 {
+#typed, #typed-strings {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 4em;
   font-weight: 600;
   color: rgba(0, 255, 177, 0.95);
+}
+
+.typed-cursor {
+  font-size: 4em;
 }
 
 .intro-divider {
