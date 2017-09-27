@@ -48,7 +48,12 @@
     <header class="intro-header">
       <div class="container">
         <div class="intro-message">
-          <h2>Welcome! I'm <h1>Gerard Degas</h1></h2>
+          <div id="typed-strings">
+            <p>Welcome!</p>
+            <p>I'm</p>
+            <p>Gerard Degas</p>
+          </div>
+          <span id="typed"></span>
           <hr class="intro-divider">
           <ul class="list-inline intro-social-buttons">
             <li class="list-inline-item">
@@ -209,6 +214,14 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="node_modules/typed.js/lib/typed.js"></script>
+    <script>
+      var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        typeSpeed: 75,
+        startDelay: 1000,
+      });
+    </script>
 
   </body>
 
