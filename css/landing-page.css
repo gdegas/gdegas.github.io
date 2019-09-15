@@ -56,8 +56,13 @@ body, h1, h2, h3, h4, h5, h6 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.intro-social-buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .intro-social-buttons i {
-  font-size: 80%;
+  font-size: 115%;
 }
 
 @media(max-width:767px) {
@@ -166,13 +171,6 @@ p.copyright {
   margin: 15px 0 0;
 }
 
-/*#surfazon {
-  position: absolute;
-  top: -20px;
-  max-width: 80%;
-  height: auto;
+.list-inline-item:not(:last-child) {
+  margin-right: 15px;
 }
-
-#surfazon-back {
-  position: relative;
-}*/
